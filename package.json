@@ -1,0 +1,32 @@
+{
+  "name": "ajs-unit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ladyChiffa/ajs-unit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ladyChiffa/ajs-unit/issues"
+  },
+  "homepage": "https://github.com/ladyChiffa/ajs-unit#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.2",
+    "globals": "^17.4.0",
+    "jest": "^30.2.0"
+  },
+  "dependencies": {
+    "core-js": "^3.48.0"
+  }
+}
