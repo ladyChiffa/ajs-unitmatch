@@ -1,4 +1,6 @@
 export default function getHealthSorted (characterList) {
-    characterList.sort((a, b) => b.health - a.health);
-    return characterList;
+    let str = JSON.stringify(characterList);
+    let clone = JSON.parse(str);
+    clone.sort((a, b) => b.health - a.health);
+    return clone;
 }
